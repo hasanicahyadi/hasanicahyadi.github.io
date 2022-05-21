@@ -1,0 +1,59 @@
+
+/* label{
+    background-color: aqua;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+} */
+
+label{
+    border: 2px solid #D3D3D3;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+label.hijau{
+    background-color:#00aa00;
+    color:#FFFFFF;
+}
+label.abu2{
+    background-color:#808080;
+    color:#FFFFFF;
+}
+label.kuning{
+    background-color:#F6BE00;
+    color:#FFFFFF;
+}
+
+input{
+    border: 2px solid #D3D3D3;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content:center;
+}
